@@ -1,4 +1,4 @@
-array = [7,13,19,15]
+array = [2,7,13,19,15]
 def prime?(array)
 
 array.each do |num|

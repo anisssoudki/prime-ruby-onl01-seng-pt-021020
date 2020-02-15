@@ -14,4 +14,4 @@ puts item
 end
 end
 
-array= [2,-2]
+array= [2,-1]

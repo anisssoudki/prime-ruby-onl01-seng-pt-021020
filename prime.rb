@@ -8,7 +8,7 @@ def is_prime(num)
   true
 end
 
-puts is_prime(7)
+puts is_prime(1..100)
 #=> true
 
 # puts is_prime(4)

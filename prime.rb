@@ -1,2 +1,7 @@
 
-def prime?(integer)
+def prime?(integer) 
+  
+  
+  
+  
+end 

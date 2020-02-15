@@ -1,14 +1,15 @@
-array = [2,7,13,19,15]
-def prime?(array)
-
-array.each do |num|
-
-
+def is_prime(num)
   (2..(num - 1)).each do |n|
     return false if num % n == 0
   end
-  true
-end
+ puts true
 end
 
-puts prime?(array)
+
+def prime?(array)
+
+array.each do |item| 
+is_prime(item)
+puts item
+end
+end

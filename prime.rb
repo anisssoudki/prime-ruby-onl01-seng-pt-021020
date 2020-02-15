@@ -10,7 +10,7 @@ def prime?(array)
 
 array.each do |item| 
 is_prime(item)
-puts item.istrue?
+puts item
 end
 end
 

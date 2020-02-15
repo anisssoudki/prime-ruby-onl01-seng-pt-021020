@@ -1,5 +1,8 @@
+def is_prime(array)
 
-def is_prime(num)
+array.each do |num|
+
+
   (2..(num - 1)).each do |n|
     return false if num % n == 0
     puts n 
@@ -7,9 +10,4 @@ def is_prime(num)
   end
   true
 end
-
-puts is_prime(1)
-#=> true
-
-# puts is_prime(4)
-#=> false
+end

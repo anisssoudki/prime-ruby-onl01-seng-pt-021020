@@ -1,5 +1,5 @@
 array = [7,13,19,15]
-def is_prime(array)
+def prime?(array)
 
 array.each do |num|
 
@@ -14,4 +14,4 @@ array.each do |num|
 end
 end
 
-puts is_prime(array)
+puts prime?(array)

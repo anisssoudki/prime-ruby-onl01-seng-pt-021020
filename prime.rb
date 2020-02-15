@@ -13,3 +13,5 @@ is_prime(item)
 puts item
 end
 end
+
+array= [2,-2]
